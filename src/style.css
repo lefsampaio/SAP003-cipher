@@ -1,0 +1,84 @@
+main{
+margin-top: auto;
+margin-bottom: 10%;
+}
+
+ header {
+    height: 250px;
+    width: 100%;
+    color: #d86565;
+    text-align: center;
+    position: relative;
+  }
+  
+  h1 {
+    color: rgb(16, 161, 245);
+    font-size: 60px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-size: 100% 100%;
+    text-align: center;
+  }
+  
+  #numb {
+    width: 40px;
+    height: 10px;
+    border: 1px solid rgb(84, 84, 104);
+    font-weight: bold;
+  }
+  #btnCifrar {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #7f08ee;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+  }
+  
+  #btnCifrar:hover {
+    font-weight: bold;
+    color: black;
+    background: white;
+    border: none;
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  #btnDecifrar {
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+    background: rgb(0, 87, 128);
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+  }
+  
+  #btnDecifrar:hover {
+    font-weight: bold;
+    color: black;
+    background: white;
+    border: none;
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  input{
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 50%;
+  }
