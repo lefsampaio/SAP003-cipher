@@ -1,45 +1,50 @@
-main{
-margin-top: auto;
-margin-bottom: 10%;
-}
 
- header {
-    height: 250px;
-    width: 100%;
-    color: #d86565;
+  header {
+    height: 200px;
     text-align: center;
-    position: relative;
   }
   
   h1 {
-    color: rgb(16, 161, 245);
+    color: rgb(194, 95, 128);
     font-size: 60px;
-    position: absolute;
-    top: 10%;
-    left: 35%;
+    
+  }
+  h3{
+    color: white;
   }
   
   body {
+    border: 3px dotted rgb(31, 124, 124);
     font-family: 'Arial', sans-serif;
     background-size: 100% 100%;
     text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    width: 50%;
+    background-image: url("imagem.jpg")!important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
   }
   
   #numb {
-    width: 40px;
+    width: 30px;
     height: 10px;
     border: 1px solid rgb(84, 84, 104);
     font-weight: bold;
+    margin: 5px;
   }
   #btnCifrar {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    background: #7f08ee;
+    background: rgb(168, 73, 104);;
     border: none;
     width: 120px;
     height: 35px;
-    border-radius: 6px;
+    border-radius: 50rem!important;
+    margin: 10px;
   }
   
   #btnCifrar:hover {
@@ -49,18 +54,18 @@ margin-bottom: 10%;
     border: none;
     transition-duration: 1s;
     cursor: pointer;
-    border-radius: 6px;
   }
   
   #btnDecifrar {
     font-size:20px;
     font-weight: bold;
     color: white;
-    background: rgb(0, 87, 128);
+    background: rgb(99, 51, 73);
     border: none;
     width: 120px;
     height: 35px;
-    border-radius: 6px;
+    border-radius: 50rem!important;
+    margin: 10px;
   }
   
   #btnDecifrar:hover {
@@ -70,7 +75,6 @@ margin-bottom: 10%;
     border: none;
     transition-duration: 1s;
     cursor: pointer;
-    border-radius: 6px;
   }
   input{
     text-align: center;
@@ -80,5 +84,5 @@ margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    width: 50%;
+ 
   }

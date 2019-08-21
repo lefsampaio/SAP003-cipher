@@ -3,27 +3,29 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>Codifique sua senha</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <main class="main">
+  <main>
     <header>
-      <h1>Caesar Cipher</h1>
+      <h1>Codifique sua senha ou Decifre uma</h1>
     </header>
 
     <div>
-      <input id="messageOne" type="text" placeholder="Digite sua mensagem">
+      <input id="messageOne" type="text" placeholder="Digite sua mensagem" required>
     </div>
     <div>
-    <h3>Digite a quantidade de deslocamento: </h3>
-    <input type="number" value="0" min=1 max=25 id="numb" />
-    <button id="btnCifrar" value="encodedText">Cifrar</button>
-    <button id="btnDecifrar" value="decodedText">Decifrar</button>
+      <h3>Escolha um número de deslocamento: </h3>
+      <input type="number" value="0" id="numb" required />
     </div>
     <div>
-      <h3>Sua mensagem cifrada e/ou decifrada:</h3>
+      <button id="btnCifrar" value="encodedText">Cifrar</button>
+      <button id="btnDecifrar" value="decodedText">Decifrar</button>
+    </div>
+    <div>
+      <h3>Sua senha cifrada e/ou decifrada:</h3>
     </div>
     <div>
       <input id="messageTwo" type="text" readonly>
