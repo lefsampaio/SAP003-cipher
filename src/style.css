@@ -4,18 +4,19 @@
     text-align: center;
   }
   
-  h1 {
+  #span {
     color: rgb(194, 95, 128);
     font-size: 60px;
     
   }
-  h3{
-    color: white;
+  .span{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
   }
   
   body {
     border: 3px dotted rgb(31, 124, 124);
-    font-family: 'Arial', sans-serif;
+    font-family: 'Rokkitt', serif;
     background-size: 100% 100%;
     text-align: center;
     margin: auto;

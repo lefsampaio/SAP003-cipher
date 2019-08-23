@@ -7,7 +7,7 @@ window.onload = () => {
   btnCifrar.addEventListener("click", () => {
     let textToEncode = document.getElementById("mensagem1").value;
 
-    let numberMove = document.getElementById("number").value;
+    let numberMove = parseInt(document.getElementById("number").value);
 
     let encodedText = window.cipher.encode(numberMove, textToEncode);
 
@@ -19,7 +19,7 @@ window.onload = () => {
 
     let textToDecode = document.getElementById("mensagem1").value;
 
-    let numberMove = document.getElementById("number").value;
+    let numberMove = parseInt(document.getElementById("number").value);
 
     let decodedText = window.cipher.decode(numberMove, textToDecode);
 

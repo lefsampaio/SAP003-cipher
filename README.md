@@ -284,23 +284,23 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
   com o produto.
 * [ ] `README.md` explicar claramente como o produto soluciona os
   problemas/necessidades dos usuários.
-* [ ] Usar VanillaJS.
-* [ ] **Não** usar `this`.
-* [ ] Implementar `cipher.encode`.
-* [ ] Implementar `cipher.decode`.
-* [ ] Passar o linter com a configuração definida.
-* [ ] Passar as provas unitárias.
-* [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
+* [x] Usar VanillaJS.
+* [x] **Não** usar `this`.
+* [x] Implementar `cipher.encode`.
+* [x] Implementar `cipher.decode`.
+* [x] Passar o linter com a configuração definida.
+* [x] Passar as provas unitárias.
+* [x] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
   no mínimo 50% das _branches_.
-* [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
+* [x] Interface que permita escolher o `offset` (chave de deslocamento) usava
   para cifrar/decifrar.
-* [ ] Interface que permita escrever um texto para ser cifrado.
-* [ ] Interface que mostre o resultado da cifra corretamente.
-* [ ] Interface que permita escrever um texto para ser decifrado.
-* [ ] Interface que mostre o resultado decifrado corretamente.
+* [x] Interface que permita escrever um texto para ser cifrado.
+* [x] Interface que mostre o resultado da cifra corretamente.
+* [x] Interface que permita escrever um texto para ser decifrado.
+* [x] Interface que mostre o resultado decifrado corretamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* [ ] Cifrar/decifrar minúsculas.
-* [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
-* [ ] Permitir usar `offset` negativo.
+* [x] Cifrar/decifrar minúsculas.
+* [x] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
+* [x] Permitir usar `offset` negativo.
