@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Codifique sua senha</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <header>
+      <span id="span">Codifique sua senha ou Decifre uma</span>
+    </header>
+
+    <section>
+      <input id="mensagem1" type="text" placeholder="Digite uma senha" required>
+    </section>
+
+    <span class="span">Escolha um número de deslocamento: </span>
+
+    <section>
+      <input type="number" value="0" id="number" required />
+    </section>
+
+    <section>
+      <button id="btnCifrar" value="encodedText">Cifrar</button>
+      <button id="btnDecifrar" value="decodedText">Decifrar</button>
+    </section>
+
+    <span class="span">Sua senha cifrada e/ou decifrada:</span>
+
+    <section>
+      <input id="mensagem2" type="text" readonly>
+    </section>
+
+  </main>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
