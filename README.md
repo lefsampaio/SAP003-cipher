@@ -47,7 +47,6 @@ A interface permite ao usuário:
   `cipher.encode()` e `cipher.decode()`.
 * `test/cipher.spec.js`: este arquivo contem alguns testes implementados para `cipher.encode()` e `cipher.decode()`.
 
-
 ## 2. Checklist
 
 Essa seção é para ter um controle do que consegui completar no projeto.
