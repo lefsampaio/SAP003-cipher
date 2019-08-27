@@ -9,7 +9,8 @@
 
 ## 1. Resumo do projeto
 
-Esse foi o produto final do primeiro sprint do bootcamp  da Laboratoria. O desafio foi criar uma plataforma para cifrar e decifrar um texto.
+Esse foi o produto final do primeiro sprint do bootcamp da Laboratoria. O desafio foi criar uma plataforma para cifrar e decifrar uma palavra ou mensagem.
+O projeto foi feito em javascript, com o básico de HTML e CSS.
 
 
 ### Definição do produto
