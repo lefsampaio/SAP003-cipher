@@ -15,7 +15,8 @@
   }
   
   body {
-    border: 3px dotted rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 4px dotted rgb(255, 255, 255);
     font-family: 'Rokkitt', serif;
     background-size: 100% 100%;
     text-align: center;
@@ -75,9 +76,10 @@
     cursor: pointer;
   }
   .input{
+    background-color: transparent;
     text-align: center;
-    border: 1px solid gray;
-    border-radius: 10px;
+    border: 1.5px solid white; 
+    border-radius: 50px;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -87,6 +89,13 @@
     font-size: 20px;
  
   }
+  textarea:focus, input:focus, select:focus {
+    border-color: none !important;
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1.5px solid rgb(168, 73, 104);
+}
 
   #img{
  position: absolute;
@@ -94,3 +103,4 @@
  margin-top: 10px;
 
   }
+ 
