@@ -15,15 +15,15 @@
   }
   
   body {
-    border: 3px dotted rgb(31, 124, 124);
+    border: 3px dotted rgb(255, 255, 255);
     font-family: 'Rokkitt', serif;
     background-size: 100% 100%;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     padding: 20px;
     width: 50%;
-    background-image: url("imagem.jpg")!important;
+    background-image: url("img.png")!important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -32,24 +32,21 @@
   #number {
     width: 30px;
     height: 10px;
-    border: 1px solid rgb(84, 84, 104);
-    font-weight: bold;
     margin: 5px;
   }
   #btnCifrar {
     font-size: 20px;
-    font-weight: bold;
     color: white;
-    background: rgb(168, 73, 104);;
+    background: rgb(168, 73, 104);
     border: none;
     width: 120px;
     height: 35px;
     border-radius: 50rem!important;
     margin: 10px;
+    font-family: 'Rokkitt', serif;
   }
   
   #btnCifrar:hover {
-    font-weight: bold;
     color: black;
     background: white;
     border: none;
@@ -59,7 +56,6 @@
   
   #btnDecifrar {
     font-size:20px;
-    font-weight: bold;
     color: white;
     background: rgb(99, 51, 73);
     border: none;
@@ -67,10 +63,11 @@
     height: 35px;
     border-radius: 50rem!important;
     margin: 10px;
+    font-family: 'Rokkitt', serif;
   }
   
   #btnDecifrar:hover {
-    font-weight: bold;
+    
     color: black;
     background: white;
     border: none;
@@ -85,5 +82,12 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    color: rgb(168, 73, 104);
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
  
+  }
+
+  #img{
+ position: absolute;
   }
