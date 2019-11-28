@@ -1,9 +1,8 @@
 window.onload = () => {
-  //Variaveis dos botoes
   const btnCifrar = document.getElementById("btnCifrar");
   const btnDecifrar = document.getElementById("btnDecifrar");
 
-  //Evento click CIFRAR
+
   btnCifrar.addEventListener("click", () => {
     let textToEncode = document.getElementById("mensagem1").value;
 
@@ -14,7 +13,6 @@ window.onload = () => {
     document.getElementById("mensagem2").value = encodedText;
 
   });
-  //Evento Click DECIFRAR
   btnDecifrar.addEventListener("click", () => {
 
     let textToDecode = document.getElementById("mensagem1").value;
